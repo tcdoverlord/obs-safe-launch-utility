@@ -3,6 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/PowerShell-Automation-blue?style=for-the-badge&logo=powershell" />
   <img src="https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows" />
+   <img src="https://img.shields.io/badge/OBS-Studio-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Network-Utility-green?style=for-the-badge&logo=icloud" />
   <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge" />
 </p>
