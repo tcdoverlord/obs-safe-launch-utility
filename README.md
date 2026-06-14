@@ -1,6 +1,23 @@
 # 🎥 OBS Safe Launch Utility
 
-Security-focused launcher for OBS Studio that validates plugin integrity, applies temporary firewall protections, verifies installation state, and safely manages OBS sessions.
+<p align="center">
+  <img src="https://img.shields.io/badge/PowerShell-Automation-blue?style=for-the-badge&logo=powershell" />
+  <img src="https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows" />
+  <img src="https://img.shields.io/badge/Network-Utility-green?style=for-the-badge&logo=icloud" />
+  <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <strong>Security-focused launcher for OBS Studio that validates plugin integrity, applies temporary firewall protections, verifies installation state, and safely manages OBS sessions.</strong>
+</p>
+
+---
+
+## 🏗️ Architecture Overview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tcdoverlord/obs-safe-launch-utility/main/OBS%20Safe%20Launch%20Utility%20overview.png" alt="OBS Safe Launch Utility Architecture Overview" width="100%">
+</p>
 
 ---
 
@@ -8,57 +25,41 @@ Security-focused launcher for OBS Studio that validates plugin integrity, applie
 
 ## 🔒 Plugin Integrity Protection
 
-➜ SHA256 plugin hash validation
-
-➜ Baseline generation and verification
-
-➜ Detection of new plugins
-
-➜ Detection of modified plugins
-
-➜ Detection of missing plugins
-
-➜ OBS version awareness
+* SHA256 plugin hash validation
+* Baseline generation and verification
+* Detection of new plugins
+* Detection of modified plugins
+* Detection of missing plugins
+* OBS version awareness
 
 ---
 
 ## 🛡️ Session Security
 
-➜ Temporary firewall rule management
-
-➜ OBS outbound rule creation
-
-➜ OBSBOT inbound protection
-
-➜ Automatic cleanup of temporary rules
+* Temporary firewall rule management
+* OBS outbound rule creation
+* OBSBOT inbound protection
+* Automatic cleanup of temporary rules
 
 ---
 
 ## 📋 Logging
 
-➜ Security event logging
-
-➜ Plugin validation events
-
-➜ Launch tracking
-
-➜ Session completion records
+* Security event logging
+* Plugin validation events
+* Launch tracking
+* Session completion records
 
 ---
 
 ## ▶️ Safe Launch Process
 
-➜ Validates OBS installation
-
-➜ Verifies plugin state
-
-➜ Checks version changes
-
-➜ Applies temporary protections
-
-➜ Launches OBS
-
-➜ Cleans up security rules after exit
+* Validates OBS installation
+* Verifies plugin state
+* Checks version changes
+* Applies temporary protections
+* Launches OBS Studio
+* Cleans up security rules after exit
 
 ---
 
@@ -156,27 +157,20 @@ C:\Update Code\OBS-Security.log
 
 The log contains:
 
-➜ Plugin validation events
-
-➜ Security alerts
-
-➜ Launch activity
-
-➜ Firewall actions
-
-➜ Session completion records
+* Plugin validation events
+* Security alerts
+* Launch activity
+* Firewall actions
+* Session completion records
 
 ---
 
 # ⚠️ Important Notes
 
-❌ Do not manually edit generated hash files
-
-❌ Do not replace plugins without rebuilding the baseline
-
-❌ Do not commit generated logs to source control
-
-❌ Do not disable Windows Firewall while using this utility
+* Do not manually edit generated hash files
+* Do not replace plugins without rebuilding the baseline
+* Do not commit generated logs to source control
+* Do not disable Windows Firewall while using this utility
 
 ---
 
@@ -184,17 +178,25 @@ The log contains:
 
 This project demonstrates:
 
-➜ PowerShell Automation
+* PowerShell Automation
+* Application Integrity Validation
+* Windows Firewall Administration
+* Security Monitoring
+* Secure Application Launching
+* Security Event Logging
 
-➜ Application Integrity Validation
+---
 
-➜ Windows Firewall Administration
+# 📁 Repository Structure
 
-➜ Security Monitoring
-
-➜ Secure Application Launching
-
-➜ Security Event Logging
+```text
+obs-safe-launch-utility/
+│
+├── OBS-Safe-Launch.ps1
+├── README.md
+├── LICENSE
+└── OBS Safe Launch Utility overview.png
+```
 
 ---
 
@@ -202,5 +204,10 @@ This project demonstrates:
 
 **TCDOverLord**
 
-GitHub:
-https://github.com/tcdoverlord
+GitHub: https://github.com/tcdoverlord
+
+---
+
+# 📜 License
+
+Licensed under the MIT License.
